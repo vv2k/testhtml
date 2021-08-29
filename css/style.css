@@ -1,0 +1,47 @@
+.block {
+    /*px em hr*/
+    width: 1250px;
+    height: 50px;
+    /*inline block inline-block*/
+    display: block;
+    /*red #ccc #aa2367 rgb(10,10,10) rgb(10,10,10,0.8)*/
+    color:black;
+    padding-left: 650px;
+    padding-top: 15px;
+}
+.block1 {
+    /*px em hr*/
+    width: 1250px;
+    height: 170px;
+    /*inline block inline-block*/
+    display: block;
+    /*red #ccc #aa2367 rgb(10,10,10) rgb(10,10,10,0.8)*/
+    color: black;
+    padding-left: 650px;
+    padding-top: 1px;
+}
+.block3{
+    width:1000;
+    height: 300;
+    display: block;
+    color: black;
+    padding-left: 650px;
+
+}
+.logo {
+    display:inline;
+}
+#fonpink {
+    background:#F1C3A6FF;
+}
+#fongrey {
+    background:#838996FF;
+}
+body{
+    background-image: url("фон.jpg");
+    border:2px solid black;
+    padding: 10;
+    margin: 10;
+}
+
+
