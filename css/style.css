@@ -26,7 +26,11 @@
     display: block;
     color: black;
     padding-left: 650px;
-
+}
+#textpink{
+    color:pink;
+    -webkit-text-stroke: 1px #000000;
+    font-size:20pt;
 }
 .logo {
     display:inline;
