@@ -1,0 +1,79 @@
+
+.div1 {
+    line-height: 2.5;
+    letter-spacing: 0.4em;
+    font-size: 20px;
+}
+.back{
+    background-image: url("ауди.jpeg");
+}
+.div2back{
+    background-image: url("https://la2-rus.ru/files/ck/image/quick-folder/lineage.ii.full.1354032.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+
+}
+#backpoz{
+    background-position-x:60px;
+}
+/*.div:hover{*/
+
+/*}*/
+/*.div:focus{*/
+
+/*}*/
+/*.div:active{*/
+
+/*}*/
+/*// odd even n n+1 2*/
+.div>ul:nth-child(){*/
+
+/*}*/
+.lista>ul>li{
+
+}
+
+.listadiv:hover{
+    background: green !important;
+    transform: rotate(
+            180deg
+    );
+    transition: 0.7s;
+}
+
+
+#a{font-family: Arial;
+}
+#b{font-family: Calibri;
+}
+#c{font-family: "Times New Roman";
+}
+#wight1{
+    font-weight: 300;
+}
+#wight2{
+    font-weight: 700;
+}
+#wight3{
+    font-weight: 1000;
+}
+
+@media (min-width: 433px) and (max-width: 768px) {
+
+
+
+
+}
+
+@media (max-width: 433px) and (min-width: 768px) {
+
+}
+
+
+@media (min-width: 433px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
