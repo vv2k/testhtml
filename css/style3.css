@@ -13,12 +13,11 @@
 .borderred{
     border: 10px solid red;
     display: block;
-
-
 }
-#borderblue{
+.borderblue{
     border: 10px dashed blue;
     display: block;
+
 }
 .imagesize{
     width: 500px;
@@ -89,6 +88,16 @@
     font-weight: 1000;
     color: #fff3cd;
 }
+.tittleanime:hover{
+    transform: translate(10px,-10px);
+    transition: 3s;
+}
+p:hover{
+    transform: skew(40deg);
+    transition: 3s  ;
+
+
+}
 .animeMessi:hover{
     transform: scale(120%);
     transition: 3s;
@@ -105,3 +114,57 @@
 body{
     background: url("https://img1.goodfon.ru/wallpaper/nbig/d/ae/liga-chempionov-lch-stadion.jpg") ;
 }
+ul{
+    text-decoration:line-through;
+}
+.all:nth-child(even){
+    font-weight: 1000;
+}
+.submitanime{
+    position: absolute;
+    top: 0;
+    display: block;
+    margin-top: 800px;
+    margin-left: 47%;
+
+}
+.submitanime:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+    border: 10px solid red;
+}
+.styleinputpl{
+    position: absolute;
+
+}
+.styleinputpl:hover{
+    display: block;
+    transform: scale(120%);
+    transition: 3s;
+}
+.divinput1{
+    position: absolute;
+    top: 0;
+    margin-top: 680px;
+    margin-left: 45%;
+
+}
+@media (min-width: 1199px) and (max-width: 768px) {
+
+
+
+
+}
+
+@media (max-width: 768px) and (min-width: 433px) {
+
+}
+
+
+@media (max-width: 432px) and (min-width: 0px) {
+
+}
+
+
+
+
